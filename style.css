@@ -1,0 +1,48 @@
+body {
+  background: radial-gradient(circle at top left, #ffb6c1, #ff69b4, #ff1493);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 60px;
+  text-shadow: 0 0 20px #fff;
+}
+
+p {
+  font-size: 1.4em;
+  margin: 30px auto;
+  width: 80%;
+}
+
+a.button {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 15px 30px;
+  background: white;
+  color: #ff1493;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 15px rgba(255,255,255,0.6);
+  transition: 0.3s;
+}
+a.button:hover {
+  background: #ff69b4;
+  color: white;
+}
+
+.heart {
+  position: fixed;
+  color: rgba(255,255,255,0.9);
+  animation: float 6s linear infinite;
+  font-size: 20px;
+}
+@keyframes float {
+  0% {transform: translateY(0) rotate(0);}
+  100% {transform: translateY(-100vh) rotate(360deg);}
+}
